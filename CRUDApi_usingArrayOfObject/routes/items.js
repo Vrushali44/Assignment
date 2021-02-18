@@ -3,28 +3,10 @@ const router = express.Router();
 
 let data = [
   { id: 1, title: "Vapurza", order: 1, completed: true, orderDate: new Date() },
-  {
-    id: 2,
-    title: "Amrutvel",
-    order: 2,
-    completed: true,
-    orderDate: new Date(),
-  },
-  { id: 3, title: "Sakhi", order: 3, completed: true, orderDate: new Date() },
-  {
-    id: 4,
-    title: "Mahotsav",
-    order: 4,
-    completed: false,
-    orderDate: new Date(),
-  },
-  {
-    id: 5,
-    title: "Sherlok Homes",
-    order: 5,
-    completed: false,
-    orderDate: new Date(),
-  },
+  { id: 2, title: "Amrutvel", order: 2, completed: true, orderDate: new Date()},
+  { id: 3, title: "Sakhi", order: 3, completed: true, orderDate: new Date()},
+  { id: 4, title: "Mahotsav", order: 4, completed: false, orderDate: new Date()},
+  { id: 5, title: "Sherlok Homes", order: 5, completed: false, orderDate: new Date()},
 ];
 
 //GET
