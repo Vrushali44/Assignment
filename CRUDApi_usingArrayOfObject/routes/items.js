@@ -56,7 +56,7 @@ router.post("/", (req, res) => {
     title: req.body.title,
     order: newOrderNum,
     completed: false,
-    createdOn: new Date(),
+    orderDate: new Date(),
   };
 
   data.push(newItem);
